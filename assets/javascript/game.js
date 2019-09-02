@@ -47,6 +47,7 @@ $('#bobaCard').on("click", function() {
     } else {
         defender = "boba";
         defHP = 150;
+        $(this).addClass("border border-danger");
     }
 });
 
@@ -57,5 +58,6 @@ $('#vaderCard').on("click", function() {
     } else {
         defender = "vader";
         defHP = 120;
+        $(this).addClass("border border-danger");
     }
 });
